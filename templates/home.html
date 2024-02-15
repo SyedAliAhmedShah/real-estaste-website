@@ -45,7 +45,7 @@
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="/" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="static/img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
                     </div>
@@ -58,9 +58,9 @@
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link active">HOME</a>
                         <a href="/about" class="nav-item nav-link ">ABOUT</a>
-                        
-                        </div>
                         <a href="/contact" class="nav-item nav-link">CONTACT</a>
+                        </div>
+                        
                     
             </nav>
         </div>
@@ -74,7 +74,7 @@
                     <h1 class="display-5 animated fadeIn mb-4"> Where<span class="text-primary"> Trends</span> Meet Oppurtunities</h1>
                     <p class="animated fadeIn mb-4 pb-2">Empowering investors to make informed decisions, our platform offers tailored 
                         opportunities to invest in lucrative real estate ventures, aligning with individual goals for prosperous societies.</p>
-                    <a href="/login" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+                    <a href="/login" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Trends</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
                     <div class="owl-carousel header-carousel">
@@ -98,22 +98,38 @@
                     <div class="col-md-10">
                         <div class="row g-2">
                             <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
+                                <input type="text" class="form-control border-0 py-3" placeholder="Location">
                             </div>
+                          <div class="col-md-4">
+                              <select class="form-select border-0 py-3">
+                                  <option selected>Distance</option>
+                                  <option value="1">5 Km</option>
+                                  <option value="2">2 km</option>
+                                  <option value="3">3 km</option>
+                              </select>
+                          </div>
+                          <div class="col-md-4">
+                              <select class="form-select border-0 py-3">
+                                  <option selected>Area(Marla)</option>
+                                  <option value="1">5 Marla</option>
+                                  <option value="2">7 Marla</option>
+                                  <option value="3">10 Marla</option>
+                              </select>
+                          </div>
                             <div class="col-md-4">
                                 <select class="form-select border-0 py-3">
                                     <option selected>Bedroom</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
+                                    <option value="1">1 Room</option>
+                                    <option value="2">2 Room</option>
+                                    <option value="3">3 Room</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
                                 <select class="form-select border-0 py-3">
                                     <option selected>Bathroom</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
+                                    <option value="1">1 Bath</option>
+                                    <option value="2">2 Bath</option>
+                                    <option value="3">3 Bath</option>
                                 </select>
                             </div>
                         </div>
@@ -138,16 +154,16 @@
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 51 1234567</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>arze_pak@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="/about">About Us</a>
+                        <a class="btn btn-link text-white-50" href="/contact">Contact Us</a>
                         <a class="btn btn-link text-white-50" href="">Our Services</a>
                         <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
                         <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
@@ -176,11 +192,12 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <h5 class="text-white mb-4">Hiring</h5>
+                        <p>Unleash your inner explorer. Build a career where keys unlock dreams.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            
+                          <a href="mailto:syedaliahmed171@gmail.com?subject=Application%20for%20Hire&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0AMy%20Resume%20Link%3A%20%3Cresume%20link%3E%0D%0AMy%20Linkedin%20Link%3A%20%3Clinkedin%20Link%3F" type="button" class="btn btn-primary py-2 position-absolute top-0 end-1 mt-2 me-2">Email</a>
+
                         </div>
                     </div>
                 </div>
